@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+}
+body,h1{
+  margin: right 100px; ;
+}
+.hidden {
+  display: none;
+}
+
+#formContainer {
+  margin-top: 20px;
+  display: border-box;
+  background-color:rgb(224, 224, 222);
+  width: 400px;
+  
+}
+#addButton{
+  
+  background-color: rgb(52, 168, 240);
+  border-color: rgb(52, 168, 240);
+  color: #fcfbfb;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  
+}
+
+th {
+  background-color: #f63630;
+  text-align: left;
+  color: #fcfbfb;
+}
+
+button {
+  margin-top: 10px;
+}

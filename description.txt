@@ -1,0 +1,25 @@
+Krijojme si fillim strukturen ne Html ,te body do te hapim nje tag button,nje div dhe nje tabel.
+Butoni i par do te perdoret per te ti dhene mundesin klientit per te plotesuar formen duke vendos te dhenat e tij.
+Me pas tek tagu div ne do te krijojme formen ku do te vendosim te dhenat qe ne duam qe te kerkohen dhe ju japim atributet perkatese.
+Me pas do te krijojm dhe dy buttona ne fund njeri per ti dhen submit formes qe te shfaqert ne tabel dhe tjetri per ti dhene cancel 
+formes dhe ta heqi na faqja kryesore formen.
+Me pas krijojme dhe tabelen ku fillimisht do te plotesojme headin e saj qe do te shafqen emertimet e te dhenave qe do te kerkohen.
+
+Ne css do ti japim ngjyrat dhe margin dhe padding qe mendoje se jane te pershtatshme dhe do ta bejme formen qe te jet hidden 
+dhe mos te shfaqet direkt mne faqen e pare
+me ane te diplay none.
+Ne javascript do te krijojm 5 konstante te cilat do te therrasin  butonat tabelta dhe formen,me pas do te krijojme 
+tre array me objekte te cilat do te perdoren si shembuj 
+dhe do te shfaqen gjith kohen te perdoruesi dhe per ato do te kemi mundesin ti editojme dhe ti fshijme nese duam.
+Krijojme funksioni fill table i cili do te bej te mundur qe ta bela te rifreskohet dhe te mari te dhenat e fundit
+Me pas e bejmq eindexi te jet null si fillim per ta pasur formen bosh.
+I japim funsion dy butonave njeri qe do te perodert per te shtuar forme te re ndersa tjetri per ta anulluar dhe i 
+bejm qe te jene hidden te dy
+Me pas therrasim subscription form ku i japim funksion te gjitha properties te saj qe nga emri deri te meyra e pageses
+Dhe me pas me ane te kushtit if bejm te mundur qe nese eshte esht bosh te kriojhet forme e re
+ dhe nese ka te dhena ajo te editohet
+Me ane te funksionit function row bejm te mu dur qe te na mbushet tabela me te 
+dhenat qe i japim kur plotesojme formen
+dhe me ane te row.innerhtml bejm qe te na shaqen format ne tabel.
+Krijojme dhe dy buttonat te cilet do te bejn te mudnur te bejm editimin ose fshirjen e te dhenave te tabeles
+Kriojme dhe funksionin e fundit load form i cili do te ngarkoj te dhenat e formes dhe do bej te mundur shfaqen e tyre.

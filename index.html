@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table managment</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Table managment</h1>
+    <button id="addButton">Add New Subscription</button>
+
+    <div id="formContainer" class="hidden">
+      <h2>Add/Edit Subscription</h2>
+      <form id="subscriptionForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <br />
+        <label for="surname">Surname:</label>
+        <input type="text" id="surname" name="surname" required />
+        <br />
+        <label for="moshe">Moshe:</label>
+        <input type="text" id="moshe" name="moshe" required />
+        <br />
+        <label for="startDate">Start Date:</label>
+        <input type="date" id="startDate" name="startDate" required />
+        <br />
+        <label for="endDate">End Date:</label>
+        <input type="date" id="endDate" name="endDate" required />
+        <br />
+        <label for="subscriptionType">Type of Subscription:</label>
+        <input
+          type="text"
+          id="subscriptionType"
+          name="subscriptionType"
+          required
+        />
+        <br />
+        <label for="active">Active:</label>
+        <input type="checkbox" id="active" name="active" />
+        <br />
+        <label for="payment">Payment:</label>
+        <input type="number" id="payment" name="payment" required />
+        <br />
+        <label for="paymentMethod">Payment Method:</label>
+        <select id="paymentMethod" name="paymentMethod" required>
+          <option value="VISA">VISA</option>
+          <option value="MasterCard">MasterCard</option>
+          <option value="PayPal">PayPal</option>
+        </select>
+        <br />
+        <button type="submit">Submit</button>
+        <button type="button" id="cancelButton">Cancel</button>
+      </form>
+    </div>
+
+    <table id="subscriptionTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Surname</th>
+          <th>Moshe</th>
+          <th>Start Date</th>
+          <th>End Date</th>
+          <th>Type of Subscription</th>
+          <th>Active</th>
+          <th>Payment</th>
+          <th>Payment Method</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Table rows will be inserted here dynamically -->
+      </tbody>
+    </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>
